@@ -10,6 +10,9 @@ public class Persona {
 		this.edad = edad;
 	}
 	
-	// Hago cambio en la rama PersonaDev
+	public void cumpleanyos() {
+		this.edad = edad +1;
+		System.out.println(this.edad);
+	}
 
 }
